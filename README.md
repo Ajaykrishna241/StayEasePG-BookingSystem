@@ -4,7 +4,7 @@
 
 StayEase is a full-stack web application designed to streamline the process of finding, viewing, and booking PG accommodations and rented rooms. It features a modern, responsive UI, secure payment integration, and a comprehensive admin panel for room management.
 
-## 🚀 Features
+##  Features
 
 ### For Users
 * **Browse & Filter:** Search for rooms by type, price, and amenities.
@@ -18,7 +18,7 @@ StayEase is a full-stack web application designed to streamline the process of f
 * **Image Uploads:** Upload high-quality room images securely to **Cloudinary**.
 * **Booking Overview:** Track all pending and confirmed user bookings.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Frontend:** HTML5, Tailwind CSS (via CDN), Vanilla JavaScript, Lucide Icons.
 * **Backend:** Node.js, Express.js, TypeScript.
@@ -27,7 +27,7 @@ StayEase is a full-stack web application designed to streamline the process of f
 * **Media Storage:** Cloudinary.
 * **Deployment:** Render.
 
-## 📦 Local Installation & Setup
+##  Local Installation & Setup
 
 Follow these steps to run the project locally on your machine.
 
@@ -77,7 +77,7 @@ npm run dev
 ```
 The server will start on `http://localhost:3000`, and the database tables will be automatically initialized and seeded with sample data if empty.
 
-## 🌐 API Endpoints Overview
+##  API Endpoints Overview
 
 | Method | Endpoint | Description |
 | :--- | :--- | :--- |
@@ -89,7 +89,7 @@ The server will start on `http://localhost:3000`, and the database tables will b
 | `POST` | `/api/admin/rooms` | (Admin) Add a new room |
 | `DELETE` | `/api/admin/rooms/:id` | (Admin) Delete a room |
 
-## 🚀 Deployment
+##  Deployment
 
 This project is configured for easy deployment on **Render**. 
 1. Connect your GitHub repository to Render as a "Web Service".
@@ -97,6 +97,6 @@ This project is configured for easy deployment on **Render**.
 3. Set the Start Command: `node server.ts`
 4. Add all environment variables in the Render dashboard.
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions, issues, and feature requests are welcome!
